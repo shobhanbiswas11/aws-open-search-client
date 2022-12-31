@@ -21,6 +21,10 @@
     "ec2"
   ],
   "author": "Shobhan Biswas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shobhanbiswas11/aws-open-search-client.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/aws4": "^1.11.2",

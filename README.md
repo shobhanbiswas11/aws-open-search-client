@@ -22,7 +22,6 @@ pnpm add simple-aws-opensearch-client
 
 Note: If you don’t already have Node on your machine, [install it first](https://nodejs.org/)
 
-### Getting started
 
 #### Get Client
 ```js
