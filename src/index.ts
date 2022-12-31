@@ -11,8 +11,8 @@ function getConnection({
   region,
 }: {
   credentials: aws4.Credentials;
-  service?: string;
   region: string;
+  service?: string;
 }) {
   return class AmazonConnection extends Connection {
     buildRequestObject(params: any) {
@@ -31,8 +31,8 @@ function getConnection({
 
 interface ClientConfig {
   host: string;
-  service: string;
   region: string;
+  service?: string;
   credentials?: aws4.Credentials;
 }
 
